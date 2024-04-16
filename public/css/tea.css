@@ -1,0 +1,59 @@
+.tea {
+  width: 85%;
+  /* height: 400px; */
+  grid-area: tea;
+  background-color: aqua;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  .ttt {
+    height: 300px;
+    margin-left: 15px;
+    grid-row: 1 /5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .lego1 {
+    height: 100px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .txt1 {
+    height: 100px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+
+    h2 {
+      color: crimson;
+    }
+  }
+  .line1 {
+    grid-column: 2/4;
+    height: 1px;
+    background-color: black;
+  }
+
+  .pic-2 {
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    column-gap: 10px;
+  }
+  .pic-3 {
+    height: 70px;
+    background-color: green;
+    h3 {
+      color: lightgrey;
+    }
+  }
+  .pic-4 {
+    height: 100px;
+    background-color: burlywood;
+  }
+}

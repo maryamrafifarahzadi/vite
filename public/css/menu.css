@@ -1,0 +1,38 @@
+.menu {
+  grid-area: menu;
+  height: 85px;
+  background-color: #272727;
+  nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    div {
+      width: fit-content;
+      height: 85px;
+      a {
+        display: block;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 85px;
+        text-decoration: none;
+        color: whitesmoke;
+        &:hover {
+          color: deeppink;
+        }
+      }
+    }
+  }
+  .line {
+    width: 1px;
+    height: 50px;
+    background-color: whitesmoke;
+  }
+}
+.lego {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
